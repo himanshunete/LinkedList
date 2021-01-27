@@ -1,0 +1,11 @@
+package javapractiseuc10;
+
+public interface INode<K> {
+	K getKey() ;
+	void setKey(K key);
+	   
+	INode getNext();
+	void setNext(INode next);
+	int compareTo(INode tempNode1);
+
+}
